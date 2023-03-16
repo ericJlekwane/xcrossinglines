@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+numpy = "*"
+djangorestframework-simplejwt = "*"
+uuid = "*"
+gunicorn = "*"
+psycopg2 = "*"
+requests = "*"
+python-decouple = "*"
+pillow = "*"
+googlemaps = "*"
+django-heroku = "*"
+django-storages = {extras = ["dropbox"], version = "*"}
+dropbox = "*"
+django-dropbox-storage-fixed = "*"
+django-rest-passwordreset = "*"
+aiohttp = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
